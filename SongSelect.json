@@ -1,0 +1,276 @@
+{
+  "DrawableInfo": {
+    "global": [
+      {
+        "Type": "osu.Game.Skinning.Components.BigBlackBox, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 314.2079,
+          "y": 314.02194
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 2.355467,
+          "y": 2.355469
+        },
+        "Width": 250.0,
+        "Height": 250.0,
+        "Anchor": 9,
+        "Origin": 17,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "text_spin": true,
+          "box_alpha": 1.0
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 620.65094,
+          "y": -140.87057
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.82191944,
+          "y": 0.8219193
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 12,
+        "Origin": 9,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "attribute": 4,
+          "template": "|HP {HPDrain}",
+          "font": 1
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 620.84015,
+          "y": -166.61984
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.82191944,
+          "y": 0.8219193
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 12,
+        "Origin": 9,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "attribute": 4,
+          "template": "|CS {CircleSize}",
+          "font": 1
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 620.6502,
+          "y": -116.47517
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.82191944,
+          "y": 0.8219193
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 12,
+        "Origin": 9,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "attribute": 4,
+          "template": "|OD {Accuracy}",
+          "font": 1
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 620.4582,
+          "y": -90.72522
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.82191944,
+          "y": 0.8219193
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 12,
+        "Origin": 9,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "attribute": 4,
+          "template": "|AR {ApproachRate}",
+          "font": 1
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.PlayerName, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 300.02347,
+          "y": -95.70427
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 10,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "font": 2
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 300.0224,
+          "y": -71.55557
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.54499716,
+          "y": 0.5449971
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 10,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "text": "vs",
+          "font": 1
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 300.0236,
+          "y": -52.00406
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 10,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "attribute": 4,
+          "template": "{Creator}",
+          "font": 2
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 300.872,
+          "y": -24.94365
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.5478455,
+          "y": 0.5478458
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 10,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "text": "in",
+          "font": 1
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 300.02563,
+          "y": -2.5514374
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 10,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "attribute": 4,
+          "template": "\"{Title}\"",
+          "font": 2
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 300.74548,
+          "y": -117.3591
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.49489388,
+          "y": 0.4948932
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 10,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "text": "witness the epic fight between",
+          "font": 1
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.312.1.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 300.0194,
+          "y": 23.913437
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.259444,
+          "y": 0.2594443
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 10,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "attribute": 4,
+          "template": "screenplay by {Artist}",
+          "font": 2
+        },
+        "Children": []
+      }
+    ]
+  }
+}
