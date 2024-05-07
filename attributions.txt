@@ -1,4 +1,5 @@
-Graphics by clods5XG
-With Material Symbols by Google - https://fonts.google.com/icons
+Graphics (mostly) by clods5XG
+Material Symbols by Google - https://fonts.google.com/icons
+
 Fonts used:
 Fredoka One - https://fonts.google.com/specimen/Fredoka
