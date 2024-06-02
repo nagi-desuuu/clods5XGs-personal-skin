@@ -1,3 +1,1 @@
-applause.wav is mising because that file would play instead of applause-b, applause-a, and applause-s upon getting B or higher on lazer.
-The images on the top-left corner are missing. I can't be bothered to restore them right now.
-There are still placeholder images, waiting to be replaced with my own graphics, if possible.
+- applause.wav is mising because that file would play instead of applause-b, applause-a, and applause-s upon getting B or higher on lazer.
