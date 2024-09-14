@@ -1,8 +1,9 @@
 {
+  "Version": 1,
   "DrawableInfo": {
     "taiko": [
       {
-        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": 0.0
@@ -18,12 +19,13 @@
         "Origin": 18,
         "UsesFixedAnchor": false,
         "Settings": {
-          "show_graph": true
+          "show_graph": true,
+          "show_time": true
         },
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.LegacyAccuracyCounter, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.LegacyAccuracyCounter, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0025024414,
           "y": -39.999756
@@ -44,7 +46,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.PlayerName, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.PlayerName, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 96.29239,
           "y": -87.43063
@@ -65,7 +67,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 97.38635,
           "y": -121.52951
@@ -87,7 +89,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.PlayerAvatar, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.PlayerAvatar, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 62.83438,
           "y": -93.262665
@@ -108,10 +110,36 @@
         "Children": []
       }
     ],
-    "osu": [],
+    "osu": [
+      {
+        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "Rotation": -90.0,
+        "Scale": {
+          "x": 5.03735,
+          "y": 5.03735
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 18,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "judgement_line_thickness": 1.0,
+          "colour_bar_visibility": false,
+          "show_moving_average": false,
+          "centre_marker_style": 0,
+          "label_style": 0
+        },
+        "Children": []
+      }
+    ],
     "fruits": [
       {
-        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": 0.0
@@ -127,12 +155,13 @@
         "Origin": 18,
         "UsesFixedAnchor": false,
         "Settings": {
-          "show_graph": true
+          "show_graph": true,
+          "show_time": true
         },
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.JudgementCounter.JudgementCounterDisplay, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.JudgementCounter.JudgementCounterDisplay, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": -0.2852173,
           "y": -39.57006
@@ -156,7 +185,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.PlayerAvatar, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.PlayerAvatar, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 27.266388,
           "y": -64.39552
@@ -177,7 +206,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.PlayerName, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.PlayerName, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 60.72415,
           "y": -58.56349
@@ -198,7 +227,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 61.818146,
           "y": -92.66241
@@ -220,7 +249,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": -27.110138,
           "y": -41.533836
@@ -243,7 +272,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": -59.12079,
           "y": -40.9515
@@ -266,7 +295,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": -72.790405,
           "y": -42.833885
@@ -289,7 +318,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.LegacyAccuracyCounter, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.LegacyAccuracyCounter, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": 0.0
@@ -312,7 +341,7 @@
     ],
     "mania": [
       {
-        "Type": "osu.Game.Screens.Play.ArgonKeyCounterDisplay, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.ArgonKeyCounterDisplay, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": 5.7142487
@@ -331,29 +360,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.ArgonComboCounter, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
-        "Position": {
-          "x": -236.18872,
-          "y": 184.09824
-        },
-        "Rotation": 0.0,
-        "Scale": {
-          "x": 1.6898562,
-          "y": 1.6898562
-        },
-        "Width": null,
-        "Height": null,
-        "Anchor": 9,
-        "Origin": 18,
-        "UsesFixedAnchor": false,
-        "Settings": {
-          "wireframe_opacity": 0.0,
-          "show_label": false
-        },
-        "Children": []
-      },
-      {
-        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 88.960815,
           "y": -67.10047
@@ -375,7 +382,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.PlayerAvatar, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.PlayerAvatar, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 54.408813,
           "y": -38.833565
@@ -396,7 +403,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.PlayerName, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.PlayerName, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 87.86682,
           "y": -53.001595
@@ -417,7 +424,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": 39.999847
@@ -433,12 +440,13 @@
         "Origin": 18,
         "UsesFixedAnchor": false,
         "Settings": {
-          "show_graph": true
+          "show_graph": true,
+          "show_time": true
         },
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": -43.568848,
           "y": -7.357155
@@ -461,7 +469,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": -75.579346,
           "y": -6.7748795
@@ -484,7 +492,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": -89.24902,
           "y": -8.657204
@@ -507,7 +515,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.ColourHitErrorMeter, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.ColourHitErrorMeter, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": 0.00024414062
@@ -530,7 +538,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.UnstableRateCounter, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.UnstableRateCounter, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.008239746,
           "y": -136.0044
@@ -549,7 +557,7 @@
         "Children": []
       },
       {
-        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.ColourHitErrorMeter, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.ColourHitErrorMeter, osu.Game, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
           "x": 0.0,
           "y": 0.0
@@ -568,6 +576,28 @@
           "judgement_count": 50,
           "judgement_spacing": 0.0,
           "judgement_shape": 1
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Rulesets.Mania.Skinning.Argon.ArgonManiaComboCounter, osu.Game.Rulesets.Mania, Version=2024.906.2.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -416.25183,
+          "y": 229.67706
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 17,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {
+          "wireframe_opacity": 0.0,
+          "show_label": false
         },
         "Children": []
       }
