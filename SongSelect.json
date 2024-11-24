@@ -1,16 +1,17 @@
 {
+  "Version": 1,
   "DrawableInfo": {
     "global": [
       {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.SkinnableSprite, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
-          "x": 620.65094,
-          "y": -140.87057
+          "x": 1.9381409,
+          "y": -51.579147
         },
         "Rotation": 0.0,
         "Scale": {
-          "x": 0.82191944,
-          "y": 0.8219193
+          "x": 0.6425413,
+          "y": -0.6425413
         },
         "Width": null,
         "Height": null,
@@ -18,78 +19,55 @@
         "Origin": 9,
         "UsesFixedAnchor": true,
         "Settings": {
-          "attribute": 4,
-          "template": "|HP {HPDrain}",
-          "font": 1
+          "sprite_name": "songselect-top.png"
         },
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
-          "x": 620.84015,
-          "y": -166.61984
+          "x": 14.73938,
+          "y": -57.76407
         },
         "Rotation": 0.0,
         "Scale": {
-          "x": 0.82191944,
-          "y": 0.8219193
+          "x": 1.0,
+          "y": 1.0
         },
         "Width": null,
         "Height": null,
         "Anchor": 12,
-        "Origin": 9,
-        "UsesFixedAnchor": true,
+        "Origin": 12,
+        "UsesFixedAnchor": false,
         "Settings": {
           "attribute": 4,
-          "template": "|CS {CircleSize}",
-          "font": 1
+          "template": "{BPM}m/h + {Length} travel time",
+          "font": 1,
+          "text_colour": "#FFFFFF"
         },
         "Children": []
       },
       {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
+        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
-          "x": 620.6502,
-          "y": -116.47517
+          "x": 12.096527,
+          "y": -87.24449
         },
         "Rotation": 0.0,
         "Scale": {
-          "x": 0.82191944,
-          "y": 0.8219193
+          "x": 1.0,
+          "y": 1.0
         },
         "Width": null,
         "Height": null,
         "Anchor": 12,
-        "Origin": 9,
-        "UsesFixedAnchor": true,
+        "Origin": 12,
+        "UsesFixedAnchor": false,
         "Settings": {
           "attribute": 4,
-          "template": "|OD {Accuracy}",
-          "font": 1
-        },
-        "Children": []
-      },
-      {
-        "Type": "osu.Game.Skinning.Components.BeatmapAttributeText, osu.Game, Version=2024.412.1.0, Culture=neutral, PublicKeyToken=null",
-        "Position": {
-          "x": 620.4582,
-          "y": -90.72522
-        },
-        "Rotation": 0.0,
-        "Scale": {
-          "x": 0.82191944,
-          "y": 0.8219193
-        },
-        "Width": null,
-        "Height": null,
-        "Anchor": 12,
-        "Origin": 9,
-        "UsesFixedAnchor": true,
-        "Settings": {
-          "attribute": 4,
-          "template": "|AR {ApproachRate}",
-          "font": 1
+          "template": "{Creator}'s {DifficultyName}",
+          "font": 2,
+          "text_colour": "#FFFFFF"
         },
         "Children": []
       }
