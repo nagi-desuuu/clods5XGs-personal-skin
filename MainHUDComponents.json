@@ -246,94 +246,10 @@
     "mania": [],
     "taiko": [
       {
-        "Type": "osu.Game.Screens.Play.HUD.ArgonSongProgress, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
-        "Position": {
-          "x": 0.024536133,
-          "y": -410.7226
-        },
-        "Rotation": 0.0,
-        "Scale": {
-          "x": 0.91405237,
-          "y": 0.91405207
-        },
-        "Width": 1359.6019,
-        "Height": null,
-        "Anchor": 20,
-        "Origin": 18,
-        "UsesFixedAnchor": true,
-        "Settings": {
-          "show_graph": true,
-          "show_time": true,
-          "use_relative_size": false,
-          "accent_colour": "#EB452C"
-        },
-        "Children": []
-      },
-      {
-        "Type": "osu.Game.Screens.Play.HUD.DefaultKeyCounterDisplay, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
-        "Position": {
-          "x": 0.0,
-          "y": 0.0
-        },
-        "Rotation": 0.0,
-        "Scale": {
-          "x": 10.788623,
-          "y": 10.788607
-        },
-        "Width": null,
-        "Height": null,
-        "Anchor": 20,
-        "Origin": 17,
-        "UsesFixedAnchor": true,
-        "Settings": {},
-        "Children": []
-      },
-      {
-        "Type": "osu.Game.Screens.Play.HUD.DefaultKeyCounterDisplay, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
-        "Position": {
-          "x": 0.0,
-          "y": 0.0
-        },
-        "Rotation": 0.0,
-        "Scale": {
-          "x": 10.788623,
-          "y": 10.788607
-        },
-        "Width": null,
-        "Height": null,
-        "Anchor": 17,
-        "Origin": 20,
-        "UsesFixedAnchor": true,
-        "Settings": {},
-        "Children": []
-      },
-      {
-        "Type": "osu.Game.Screens.Play.HUD.ArgonHealthDisplay, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
-        "Position": {
-          "x": 0.023742676,
-          "y": -396.86377
-        },
-        "Rotation": 0.0,
-        "Scale": {
-          "x": 1.0,
-          "y": 1.0
-        },
-        "Width": 1254.4003,
-        "Height": null,
-        "Anchor": 20,
-        "Origin": 18,
-        "UsesFixedAnchor": true,
-        "Settings": {
-          "bar_height": 0.0,
-          "use_relative_size": false
-        },
-        "Children": []
-      },
-      {
         "Type": "osu.Game.Skinning.Components.BoxElement, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
-          "x": 0.008300781,
-          "y": -397.0368
+          "x": 0.00030517578,
+          "y": -0.00012207031
         },
         "Rotation": 0.0,
         "Scale": {
@@ -341,13 +257,55 @@
           "y": 1.0
         },
         "Width": 2.4994612,
-        "Height": 46.87554,
+        "Height": 64.00893,
         "Anchor": 20,
-        "Origin": 18,
+        "Origin": 20,
         "UsesFixedAnchor": true,
         "Settings": {
           "corner_radius": 0.0,
           "accent_colour": "#FFFFFF"
+        },
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.LegacySongProgress, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 0.004638672,
+          "y": -95.750305
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 20,
+        "Origin": 18,
+        "UsesFixedAnchor": true,
+        "Settings": {},
+        "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.Components.TextElement, osu.Game, Version=2024.1115.3.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": 0.0031738281,
+          "y": -65.51337
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.3094931,
+          "y": 0.3094931
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 20,
+        "Origin": 20,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "text": "if hp >= 50% then pass",
+          "font": 1,
+          "text_colour": "#FFFFFF"
         },
         "Children": []
       }
