@@ -162,6 +162,27 @@
           "text_colour": "#FFFFFF"
         },
         "Children": []
+      },
+      {
+        "Type": "osu.Game.Skinning.LegacyAccuracyCounter, osu.Game, Version=2025.101.0.0, Culture=neutral, PublicKeyToken=null",
+        "Position": {
+          "x": -310.40536,
+          "y": -9.530899
+        },
+        "Rotation": 0.0,
+        "Scale": {
+          "x": 0.28891465,
+          "y": 0.28891465
+        },
+        "Width": null,
+        "Height": null,
+        "Anchor": 36,
+        "Origin": 36,
+        "UsesFixedAnchor": false,
+        "Settings": {
+          "accuracy_display": 2
+        },
+        "Children": []
       }
     ],
     "osu": [
@@ -191,17 +212,17 @@
       {
         "Type": "osu.Game.Screens.Play.HUD.HitErrorMeters.BarHitErrorMeter, osu.Game, Version=2025.101.0.0, Culture=neutral, PublicKeyToken=null",
         "Position": {
-          "x": 0.0,
-          "y": 0.0
+          "x": 0.00030517578,
+          "y": -6.299362
         },
-        "Rotation": 0.0,
+        "Rotation": -90.0,
         "Scale": {
           "x": -1.3313236,
           "y": 1.3313236
         },
         "Width": null,
         "Height": null,
-        "Anchor": 10,
+        "Anchor": 20,
         "Origin": 34,
         "UsesFixedAnchor": false,
         "Settings": {
@@ -422,30 +443,6 @@
         "Origin": 9,
         "UsesFixedAnchor": true,
         "Settings": {},
-        "Children": []
-      },
-      {
-        "Type": "osu.Game.Screens.Play.HUD.JudgementCounter.JudgementCounterDisplay, osu.Game, Version=2025.101.0.0, Culture=neutral, PublicKeyToken=null",
-        "Position": {
-          "x": 32.757874,
-          "y": -0.00079345703
-        },
-        "Rotation": 0.0,
-        "Scale": {
-          "x": 0.8078511,
-          "y": 0.8078511
-        },
-        "Width": null,
-        "Height": null,
-        "Anchor": 10,
-        "Origin": 10,
-        "UsesFixedAnchor": false,
-        "Settings": {
-          "mode": 0,
-          "flow_direction": 1,
-          "show_judgement_names": false,
-          "show_max_judgement": false
-        },
         "Children": []
       },
       {
