@@ -104,7 +104,8 @@
     {"id":249, "name":"Yuzu Kitami", "JPname":"喜多見柚", "cv":"Rarisatago Takeda", "JPcv":"武田羅梨沙多胡"}
 ],
 "copyright":[
-    {"holder":"BNEI & THE iDOLM@STER", "year":"2024"},
+    {"holder":"BNEI", "year":"2024"},
+    {"holder":"THE iDOLM@STER", "year":"2024"},
     {"holder":"Cover Corp", "year":"2016"}
 ]
 }
